@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Valentine’s Week</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- 🌹 Custom Cursor -->
+  <div id="rose-cursor">💋</div>
+
+  <!-- 🔝 NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">Valentine’s Week</div>
+
+    <div class="nav-actions">
+      <!-- NEW BUTTON (works with existing JS) -->
+      <button class="nav-btn" data-page="kissPage">Kiss Day</button>
+      <button class="nav-btn" data-page="hugPage">Hug Day</button>
+      <button class="nav-btn" data-page="promisePage">Promise Day</button>
+      <button class="nav-btn" data-page="teddyPage">Teddy Day</button>
+
+      <button class="nav-btn" data-page="chocolatePage">Chocolate Day</button>
+      <button class="nav-btn" data-page="proposePage">Propose Day</button>
+      <button class="nav-btn" data-page="rosePage">Rose Day</button>
+      <button class="nav-btn" data-page="valentinePage">Valentine’s Day</button>
+    </div>
+  </nav>
+  <section id="kissPage" class="page ">
+    <h1> Happy Kiss Day💋</h1>
+    <video src="IMG_4275.mp4"
+    id="kissdayvideo"
+      autoplay
+  muted
+  loop
+  playsinline
+    ></video>
+  </section>
+<section id="hugPage" class="page">
+  <h1>Happy Hug Day 🫂</h1>
+  <audio controls>
+    <source src="hugday.mp3" type="audio/mpeg">
+  </audio>
+  <img src="hug.jpg">
+  
+</section>
+  <section id="promisePage" class="page ">
+    <h1>Happy Promise Day 🤞</h1>
+    <p class="subtitle4">
+      I promise togetherness, love, laughter and joy,</p>
+      <p class="subtitle4">I promise to have girls and a boy,</p>
+      <p class="subtitle4">I promise to express without coy,</p>
+      <p class="subtitle4">I promise to always annoy,</p> 
+      <p class="subtitle4">I promise to be by your side when the skies are grey,</p> 
+      <p class="subtitle4">I promise to be by your side when there's no sunshine in your day,</p> 
+      <p class="subtitle4">I promise to be by your side when you feel the winter in May,</p> 
+      <p class="subtitle4">I promise to be by your side when nod your head in dismay,</p> 
+      <p class="subtitle4">I promise to give you the world,</p> 
+      <p class="subtitle4">I promise to love you when your thoughts seems spiraled,</p> 
+      <p class="subtitle4">I promise to enjoy your actions that are pearled,</p> 
+      <p class="subtitle4">Because this is what you always deserved.</p> 
+    
+
+    
+  </section>
+  <!-- 🧸 TEDDY DAY (DEFAULT PAGE) -->
+  <section id="teddyPage" class="page">
+    <h1>Happy Teddy Day 🧸</h1>
+    <div class="bg-wrapper">
+    <img src="teddy-day.JPG">
+      </div>
+      <p class="subtitle3">You are only teddy I want!!!!</p>
+  </section>
+
+  <!-- 🍫 CHOCOLATE DAY -->
+  <section id="chocolatePage" class="page">
+    <h1>Happy Chocolate Day 🍫</h1>
+
+    <video
+  id="chocolateVideo"
+  src="ips-BC682726-A1C5-4B57-864F-88B84391FD7D.mp4"
+  autoplay
+  muted
+  loop
+  playsinline
+></video>
+  </section>
+
+  <!-- 💍 PROPOSE DAY -->
+  <section id="proposePage" class="page">
+    <h1>Propose Day 💍</h1>
+
+    <p class="subtitle1">Our love had a beginning but will never have an end,</p>
+    <p class="subtitle">Along with my lover, you sure are my friend,</p>
+    <p class="subtitle">Lots of love and laughter, I want to send,</p>
+    <p class="subtitle">With you I always want to interdepend.</p>
+    <p class="subtitle2">Will you be my Valentine?</p>
+
+    <div class="bg-wrapper">
+      <img src="Subject.png" alt="">
+    </div>
+  </section>
+
+  <!-- 🌹 ROSE DAY -->
+  <section id="rosePage" class="page">
+    <h1>Happy Rose Day 🌹</h1>
+
+    <div class="carousel">
+      <div class="carousel-track">
+        <div class="img-card"><img src="41ecd6d0-9aa9-4c4e-b753-94586564e609.JPG"></div> 
+        <div class="img-card"><img src="48700d0d-cb52-4515-b5be-49b019c3d172.JPG"></div> 
+        <div class="img-card"><img src="698b7e09-e40e-4590-a4ff-71425bcdf9aa.JPG"></div> 
+        <div class="img-card"><img src="7a7787fe-0601-4e9c-afbe-1205eeb55816.JPG"></div> 
+        <div class="img-card"><img src="add5216d-e3e0-4115-8934-36333a92351e.JPG"></div>
+         <div class="img-card"> <video src="bc30635a-0ac9-41fb-9a18-8ad226a97bcf.MP4" autoplay muted loop></video> 
+        </div> <!-- DUPLICATE FOR LOOP --> <div class="img-card"><img src="41ecd6d0-9aa9-4c4e-b753-94586564e609.JPG"></div> <div class="img-card"><img src="48700d0d-cb52-4515-b5be-49b019c3d172.JPG"></div> <div class="img-card"><img src="698b7e09-e40e-4590-a4ff-71425bcdf9aa.JPG"></div> <div class="img-card"><img src="7a7787fe-0601-4e9c-afbe-1205eeb55816.JPG"></div> <div class="img-card"><img src="add5216d-e3e0-4115-8934-36333a92351e.JPG"></div> <div class="img-card"> <video src="bc30635a-0ac9-41fb-9a18-8ad226a97bcf.MP4" autoplay muted loop></video> </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- 💖 VALENTINE DAY -->
+  <section id="valentinePage" class="page active">
+    <h1>Valentine’s Day 💖</h1>
+    <img src="vday.png" class="bg-img">
+  </section>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
